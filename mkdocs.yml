@@ -1,7 +1,9 @@
-site_name: obsidian-mkdocs template
+site_name: COMPILOMAT
 
 theme:
     name: 'material'
+    logo: assets/android-chrome-512x512.png
+    favicon: assets/favicon-32x32.png
     palette:
 
     # Light mode
