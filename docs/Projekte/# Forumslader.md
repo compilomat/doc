@@ -1,10 +1,10 @@
-# Nachbau (ShutterPrecision, Matteo)
+## Nachbau (ShutterPrecision, Matteo)
 
 _Vorschlag: erst nur Lader, dann kl. Powerbank ohne Schalter ohne LEDs, nur USB-PD/QC_
 
 _Vorteil: schlank, mechanisch vereinfacht_
 
-## Besorgungen
+### Besorgungen
 
 - Reichelt ([v.a. Lader](https://www.forumslader.de/fileadmin/user_upload/Individuelle%20Geraete/jensd/Download/UniladerUSB/Bestellnummern.txt))
     - [ ] Tuning- und Stütz-Elkos
@@ -33,11 +33,11 @@ _Vorteil: schlank, mechanisch vereinfacht_
     - [ ] LiPo Holder
     - [ ] USB Powermeter
 
-## Variante
+### Variante
 
 - Lenkerbefestigung/Tasche
 
-# ToDo
+## ToDo
 
 - [ ] DC-Hohlbuchse aus Kunststoff statt Verschraubung
 - DONE
@@ -94,7 +94,7 @@ _Vorteil: schlank, mechanisch vereinfacht_
     - [x] Taster für Meter
     - [x] evtl. Schiebeschalter für USB
 
-# Konzept
+## Konzept
 
 - **Lader und Powerbank als zwei separate Geräte**
 - festes Kabel von Dynamo zu Lader, steckbares zur Powerbank
@@ -111,7 +111,7 @@ _Vorteil: schlank, mechanisch vereinfacht_
     Li-Ion mit BMS, austauschbare Industriestandards, keine ineffiziente Linearregelung (Laderegler/USB), Zweiteilung: schlanker/leichter Lader am Rad, Powerbank portabel, multiple Lade-/Entlade-Möglichkeiten
     
 
-# Leistung
+## Leistung
 
 _Bisherige Tests an Shimano DH3D72, Shimano DH3N72, ShutterPrecision SP PD-8_
 
@@ -173,9 +173,9 @@ _Bisherige Tests an Shimano DH3D72, Shimano DH3N72, ShutterPrecision SP PD-8_
     - Kippschalter mit wasserdichter Kappe
     - 2x LED (3mm) wegen Streulicht (Sonne) versenken, Möglichkeit Abdichtung mit Epoxy/Sekundenkleber
 
-# Powerbank
+## Powerbank
 
-## Elektronik
+### Elektronik
 
 - BMS mit aktivem Balancing ([BMS Modul, Aliexpress](https://de.aliexpress.com/item/1005001511789393.html?spm=a2g0o.order_list.order_list_main.75.59c15c5frWqVr4&gatewayAdapt=glo2deu))
 - Laden
@@ -187,26 +187,37 @@ _Bisherige Tests an Shimano DH3D72, Shimano DH3N72, ShutterPrecision SP PD-8_
 - USB-Meter ([Modul, Aliexpress](https://de.aliexpress.com/item/1005009123526203.html?spm=a2g0o.order_list.order_list_main.145.59c15c5frWqVr4&gatewayAdapt=glo2deu))
     - Shunt des Meter sitzt zwischen allen Lade- und Entladevorgängen und dem BMS
 
-## Akku
+### Akku
 
 - Konfiguration: 3S1P: 9V (Entladeschlusspanunng) - 12.6V (Ladeschlussspannung)
 - Kapazität: 3300mAh @ 10.8V = 36Wh
 
-## Gehäuse
+### Gehäuse
 
 ![00.png](attachment:f0696834-16be-4044-b9a8-7a2f49f60948:00.png)
 
 ![01.png](attachment:15761087-6af9-41f7-a40b-2b54d6a2cde4:01.png)
 
-# Prototypen
+## Prototypen
 
-## Lader und Powerbank
+??? note "Test"
+	erfergre
+
+
+???+ note "Meine Notizen"
+    Dieser Bereich ist standardmäßig geöffnet.
+
+> [!NOTE]- Meine Notizen
+> Inner Bereich
+
+
+### Lader und Powerbank
 
 Erfahrung: Strom-/Energiezähler wäre der Akkuanzeige überlegen. Test am Atlantik.
 
 ![1000043775.jpg](attachment:d65d1f2d-f5c2-4dfc-ba95-1131fda75344:1000043775.jpg)
 
-## All-in-One, Li-Ion
+### All-in-One, Li-Ion
 
 Erfahrung: Lose Verstauung in Gabeltasche suboptimal: Schalter gegen unbeabsichtigte Betätigung schützen, LED bei Sonnenlicht kaum erkennbar. Wunsch nach Trennung von Akku und Lader (Wanderung; Aufladung an Steckdose). Test in Skandinavien
 
@@ -220,7 +231,7 @@ Erfahrung: Lose Verstauung in Gabeltasche suboptimal: Schalter gegen unbeabsicht
 
 ![](attachment:4e338546-1a1c-4908-b6bf-00ba0d5df72b:nse-5411058561067116480-1000043738.jpg)
 
-## All-in-One, NiMH
+### All-in-One, NiMH
 
 Erfahrung: schlechte Energiedichte. Wenig Gewinn trotz Größe und Gewicht. Test auf Balkan.
 
@@ -230,7 +241,7 @@ Erfahrung: schlechte Energiedichte. Wenig Gewinn trotz Größe und Gewicht. Test
 
 ![IMG_20240912_163914.jpg](attachment:4077edc8-b65a-430c-9b3e-2a8c4d946da2:IMG_20240912_163914.jpg)
 
-# Quellen
+## Quellen
 
 - [Forumslader](https://www.forumslader.de/aeltere-versionen-des-forumsladers/12v-version-mit-zusaetzlichem-usb)
 - [Funktion](https://rad-forum.de/topics/764340) I, [Funktion II](https://www.rad-forum.de/topics/530892/forumslader_freaks_suche_step_down_wandl)
