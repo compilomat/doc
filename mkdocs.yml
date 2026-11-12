@@ -70,4 +70,4 @@ extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js 
   
  extra:
- generator: false
+  generator: false
